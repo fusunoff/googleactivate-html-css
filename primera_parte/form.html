@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1>Ejemplos de campos en un formulario:</h1>
+
+    <form action="">
+        <select multiple="multiple">
+            <option value="HTML">
+                HTML
+            </option>
+            <option value="CSS">
+                CSS
+            </option>
+        </select>
+
+        <select >
+            <optgroup label="HTML">
+            <option value="tables"> Tablas </option>
+            <option value="forms"> Formularios </option>
+            </optgroup>
+
+            <optgroup label="CSS">
+                <option value="tables"> Colores </option>
+                <option value="forms"> Flexbox </option>
+                </optgroup>
+        </select>
+
+    </form>
+
+    <form>
+        <label for="html">HTML</label>
+        <input type="radio" name="tema" id="html"/>
+        
+        <label for="CSS">CSS</label>
+        <input type="radio" name="tema" id="css"/>
+    </form>
+
+
+    <form >
+        <fieldset><legend>Perfil</legend>
+        Nombre: <input type="text">
+        <br>
+        Email: <input type="text"> 
+    </fieldset>
+
+    <fieldset><legend>Temas</legend>
+       <input type="checkbox"> HTML
+        <br>
+       <input type="checkbox"> CSS 
+    </fieldset>
+
+
+    </form>
+    
+</body>
+</html>
